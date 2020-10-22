@@ -12,14 +12,4 @@ class MinAvgTwoSliceTest {
     public void test() {
         Assertions.assertEquals(1, minAvgTwoSlice.solution(new int[]{4, 2, 2, 5, 1, 5, 8}));
     }
-
-//    @Test
-//    public void test1() {
-//        Assertions.assertEquals(1, minAvgTwoSlice.solution(new int[]{1,2,3}));
-//    }
-//
-//    @Test
-//    public void test2() {
-//        Assertions.assertEquals(1, minAvgTwoSlice.solution(new int[]{5,6,1,2}));
-//    }
 }
