@@ -11,7 +11,6 @@ public class OddOccurrencesInArray {
             if (!elements.remove(x)) {
                 elements.add(x);
             }
-            System.out.println(elements);
         }
         return elements.iterator().next();
     }
